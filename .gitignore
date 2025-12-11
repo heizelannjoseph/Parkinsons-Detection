@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Large datasets and model weights
+data/raw/
+data/processed/*.pkl
+data/processed/*.h5
+models/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache
+__pycache__/
+*.pyc
